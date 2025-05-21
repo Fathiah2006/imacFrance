@@ -1,0 +1,138 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .billion-harvest-updates {
+    padding: 20px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .progress-bar-container {
+    background: url(\assets\images\progress-bg.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 40px 20px;
+    margin: 30px 0;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .label-left,
+  .label-right {
+    position: absolute;
+    top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ddd;
+  }
+  
+  .label-left {
+    left: 15px;
+    text-align: left;
+  }
+  
+  .label-right {
+    right: 15px;
+    text-align: right;
+  }
+  
+  .progress-bar-wrapper {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 30px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    line-height: 30px;
+    color: black;
+    text-align: left;
+    transition: width 0.5s ease;
+    white-space: nowrap;
+    padding: 0 15px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .progress-bar.people-saved {
+    background-color: #FFC107;
+  }
+  
+  .progress-bar.churches {
+    background-color: #2196F3;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .target-label {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .title {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  
+    .label-left,
+    .label-right {
+      font-size: 12px;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+    }
+  
+    .progress-bar {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+  
+    .progress-bar-container {
+      padding: 20px;
+      margin: 20px 0;
+    }
+  
+    .progress-bar-wrapper {
+      height: 25px;
+      margin-top: 25px;
+    }
+  
+    .progress-text,
+    .target-label {
+      font-size: 12px;
+    }
+  }
+  
