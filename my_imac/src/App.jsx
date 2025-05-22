@@ -1,11 +1,21 @@
 import React from 'react';
-import './App.css';  // Your general app styles
-import BillionHarvestUpdates from './BillionHarvestUpdates';  // Import the banner component
+
+import Header from './components/layout/header/Header';
+import Footer from './components/layout/footer/Footer';
+import Home from './components/page/home/Home';
+
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <BillionHarvestUpdates />
+      <Header />
+
+      <div className="wrapper">
+        <Home />
+      </div>
+      
+      <Footer />
     </div>
   );
 }
