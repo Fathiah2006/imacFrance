@@ -17,3 +17,43 @@
 .header-content .sub-text a {
     color: #fff;
 }
+
+/* Header Logo & Nav */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-logo {
+    width: 300px;
+    height: auto;
+    position: relative;
+    top: -10px;
+}
+.site-logo img {
+    width: 100%;
+}
+
+.nav-content nav {
+    flex: 1;
+    border-radius: 10px;
+}
+
+.nav-items {
+    padding: 15px 25px;
+    background-color: #fff;
+    color: #000;
+    list-style: none;
+    display: flex;
+    gap: 10px 0px;
+    align-items: center;
+    border-radius: 10px;
+}
+.nav-items .nav-item {
+    flex: 1;
+    text-align: end;
+}
+.nav-items a {
+    color: inherit;
+    text-decoration: none;
+}

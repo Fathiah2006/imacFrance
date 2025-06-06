@@ -54,7 +54,8 @@
     background-size: contain;
   }
   .progress-bars .bar {
-    font-size: 76%;
+    font-size: 70%;
+    padding: 0 5px;
   }
   .bar>div {
     width: var(--left-bar);

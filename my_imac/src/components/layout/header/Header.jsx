@@ -22,10 +22,31 @@ const Header = () => {
 
 					<div className="nav-content">
 						<div className="site-logo">
-							<img src="" alt="" />
+							<img src="./h-logo.png" alt="header logo" />
 						</div>
 
-						<nav id="nav"></nav>
+						<nav id="nav">
+							<ul className="nav-items">
+								<li className="nav-item"> 
+									<a href="#">Home</a>
+								</li>
+								<li className="nav-item"> 
+									<a href="#">About</a>
+								</li>
+								<li className="nav-item"> 
+									<a href="#">Services</a>
+								</li>
+								<li className="nav-item"> 
+									<a href="#">Portfolio</a>
+								</li>
+								<li className="nav-item"> 
+									<a href="#">Blog</a>
+								</li>
+								<li className="nav-item"> 
+									<a href="#">Contact</a>
+								</li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
